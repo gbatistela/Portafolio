@@ -9,7 +9,7 @@ body {
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   width: 100%;
-  height: 100vh; /* Asegura que el fondo cubra la altura de la ventana del navegador */
+  height: 1vh; /* Asegura que el fondo cubra la altura de la ventana del navegador */
 }
 
 header {
@@ -36,7 +36,7 @@ header a {
 
 section {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -96,8 +96,9 @@ h2 {
   background-color: #0056b3;
 }
 
+/* Media Queries para Dispositivos Móviles */
 @media (max-width: 768px) {
-  .container {
-    padding: 1rem;
+  body {
+    background-position: center center;
   }
 }
