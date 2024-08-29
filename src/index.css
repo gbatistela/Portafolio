@@ -90,3 +90,9 @@ h2 {
 .project-card a:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}
