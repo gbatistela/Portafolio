@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
             className="email-icon"
           />
         </a>
-        giulianobatist
+        giulianobatistela@gmail.com
       </div>
       <br></br>
       <br></br>
