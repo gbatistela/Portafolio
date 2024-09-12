@@ -5,6 +5,7 @@ const Contact: React.FC = () => {
     <section id="contact">
       <h2>Contacto</h2>
       <p>Puedes contactarme en:</p>
+      <br></br>
       <div className="email-container">
         {/* Ícono de correo */}
         <a href="https://mail.google.com/mail/u/0/#inbox">
