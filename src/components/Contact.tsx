@@ -7,26 +7,24 @@ const Contact: React.FC = () => {
       <p>Puedes contactarme en:</p>
       <div className="email-container">
         {/* Ícono de correo */}
-        <a href="gmail.png">
+        <a href="https://mail.google.com/mail/u/0/#inbox">
           <img src="/image.jpg" alt="Email Icon" className="email-icon" />
         </a>
         giulianobatistela@gmail.com
       </div>
       <br></br>
+      <br></br>
+
       <div className="whatsapp-container">
-        {/* Ícono de WhatsApp */}
-        <img
-          src="src/assets/logowhatsapp.png"
-          alt="WhatsApp Icon"
-          className="whatsapp-icon"
-        />
-        <a
-          href="https://wa.me/1234567890"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contáctame por WhatsApp
+        {/* Ícono de wp */}
+        <a href="https://wa.me/message/VOD76U3TLIVNK1">
+          <img
+            src="/src/assets/logowhatsapp.png"
+            alt="Email Icon"
+            className="email-icon"
+          />
         </a>
+        +54 342 5543999
       </div>
     </section>
   );

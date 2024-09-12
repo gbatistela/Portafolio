@@ -87,59 +87,59 @@
   color: #888;
 }
 
-/* Contact section */
+/* Sección de contacto */
 #contact {
-  position: initial;
+  position: relative;
   padding: 2rem;
 }
 
-.email-container {
-  position: center;
-  bottom: 1rem;
-  right: 1rem;
-  display: block;
-  align-items: center;
-}
-
-.email-icon {
-  width: 30px;
-  height: 20px;
-  margin-right: 0.5rem;
-}
-
-.email-container a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.email-container a:hover {
-  text-decoration: underline;
-}
-
-/* WhatsApp container */
+/* Contenedores del correo y WhatsApp */
+.email-container,
 .whatsapp-container {
-  position: center;
-  bottom: 1rem;
-  right: 1rem;
-  display: block;
+  display: flex;
   align-items: center;
+  position: absolute; /* Cambiar a 'absolute' para posicionamiento más controlado */
+  right: 1rem;
+  z-index: 1000;
 }
 
+/* Íconos y enlaces generales */
+.email-icon,
 .whatsapp-icon {
-  width: 30px;
-  height: 30px;
+  width: 24px; /* Ajustar tamaño para que sea visible tanto en PC como en móvil */
+  height: 24px;
   margin-right: 0.5rem;
 }
 
+/* Enlaces del correo y WhatsApp */
+.email-container a,
 .whatsapp-container a {
-  color: #ffffff;
+  color: #333;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
 }
 
+.email-container a:hover,
 .whatsapp-container a:hover {
   text-decoration: underline;
+}
+
+/* Ajustes específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .email-container {
+    bottom: 4rem; /* Ajustar la posición en pantallas pequeñas */
+    right: 1rem;
+  }
+
+  .whatsapp-container {
+    bottom: 1.5rem; /* Ajustar la posición en pantallas pequeñas */
+    right: 1rem;
+  }
+
+  /* Aumentar un poco el tamaño de los íconos para pantallas pequeñas */
+  .email-icon,
+  .whatsapp-icon {
+    width: 28px;
+    height: 28px;
+  }
 }
