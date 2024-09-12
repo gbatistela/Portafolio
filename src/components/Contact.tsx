@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
         {/* Ícono de wp */}
         <a href="https://wa.me/message/VOD76U3TLIVNK1">
           <img
-            src="public/logowhatsapp.png"
+            src="public/icons/logowhatsapp.png"
             alt="Email Icon"
             className="email-icon"
           />
