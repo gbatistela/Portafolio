@@ -4,14 +4,22 @@ import Project from "./Project";
 const ProjectList: React.FC = () => {
   const projects = [
     {
-      title: "Project 1",
-      description: "Description for project 1",
-      url: "https://github.com/yourusername/project1",
+      title: "Proyecto new addres argentina",
+      description:
+        "Actualizamos a un cliente tablas mediante un pipeline con azure",
+      url: "https://github.com/gbatistela/Proyecto_Azure-New-Address.git",
     },
     {
-      title: "Project 2",
-      description: "Description for project 2",
-      url: "https://github.com/yourusername/project2",
+      title: "Telecomunicaciones Enacom",
+      description:
+        "Analice datos y saque conclusiones a traves de de un dashboards y Kpis",
+      url: "https://github.com/gbatistela/PI_DA_Telecomunicaciones.git",
+    },
+    {
+      title: "Steam Games",
+      description:
+        "Una aplicacion done se le puede hacer consultas y se puede hacer una recomendacion de juegos similares a traves de un modelo de machine learning",
+      url: "https://github.com/gbatistela/ML_OPS_Steam_Games.git",
     },
   ];
 
