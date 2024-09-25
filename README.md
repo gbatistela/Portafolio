@@ -3,6 +3,6 @@
  Este es el link para revisarlo: 
 [https://portafolio-xi-three-90.vercel.app/](https://portafolio-xi-three-90.vercel.app/)
 
-![Descripción alternativa](giphy.mp4)
+![Descripción alternativa](video.gif)
 
  
