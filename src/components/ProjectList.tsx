@@ -10,7 +10,7 @@ const ProjectList: React.FC = () => {
       url: "https://app-movie-rrim.onrender.com/docs",
     },
     {
-      title: "Proyecto new addres argentina",
+      title: "Proyecto New Addres argentina",
       description:
         "Actualizamos a un cliente una base de datos de nuevos registros utilizando un pipeline con Azure data factoty, Databricks y Synapse Analitycs",
       url: "https://github.com/gbatistela/Proyecto_Azure-New-Address.git",
